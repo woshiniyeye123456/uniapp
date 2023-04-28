@@ -1,4 +1,5 @@
 import App from './App'
+import store from './store'
 import request from './http/index.js'
 // #ifndef VUE3
 import Vue from 'vue'
@@ -6,6 +7,7 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 import uView from '@/uni_modules/uview-ui'
 Vue.use(uView)
+Vue.prototype.$store = store
 try {
   function isPromise(obj) {
     return (
@@ -35,7 +37,8 @@ try {
 } catch (error) { }
 
 const app = new Vue({
-  ...App
+  ...App,
+  store
 })
 app.$mount()
 // #endif

@@ -24,21 +24,23 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.title.data-v-57280228 {
-  height: 100rpx;
-  line-height: 100rpx;
+view.data-v-2675fb21, scroll-view.data-v-2675fb21, swiper-item.data-v-2675fb21 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
 }
-.title .custom-icon.data-v-57280228 {
-  line-height: 1;
-  margin: 0 20rpx;
+.u-collapse-item__content.data-v-2675fb21 {
+  overflow: hidden;
+  height: 0;
 }
-.wrap.data-v-57280228 {
-  padding: 0 40rpx;
-}
-.collapse.data-v-57280228 {
-  padding: 0 40rpx;
+.u-collapse-item__content__text.data-v-2675fb21 {
+  padding: 12px 15px;
+  color: #606266;
+  font-size: 14px;
+  line-height: 18px;
 }
 

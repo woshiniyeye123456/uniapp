@@ -1,1 +1,1 @@
-<view>cart</view>
+<view>手机<u-button vue-id="6a21c8ac-1" type="primary" data-event-opts="{{[['^click',[['add']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">添加</u-button>{{''+appData.phoneCount+''}}</view>
